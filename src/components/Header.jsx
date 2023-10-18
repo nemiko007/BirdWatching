@@ -1,4 +1,4 @@
-import Navigate from "./navigate";
+import Navigate from "./Navigate";
 
 export default function Header(){
     return(
