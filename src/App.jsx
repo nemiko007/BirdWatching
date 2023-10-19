@@ -5,13 +5,13 @@ import Aside from "./components/Aside";
 
 export default function App() {
   return (
-    <div>
+    <html>
       <Header />
       <main>
         <Maincon />
         <Aside />
       </main>
       <Footer />
-    </div>
+    </html>
   );
 }
