@@ -1,17 +1,13 @@
 import Header from "./components/Header";
 import Maincon from "./components/Maincon";
 import Footer from "./components/Footer";
-import Aside from "./components/Aside";
 
 export default function App() {
   return (
-    <html>
+    <div>
       <Header />
-      <main>
-        <Maincon />
-        <Aside />
-      </main>
+      <Maincon />
       <Footer />
-    </html>
+    </div>
   );
 }

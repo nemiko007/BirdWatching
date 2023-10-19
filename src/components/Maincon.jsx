@@ -1,7 +1,11 @@
 import Welcome from "./Welcome";
+import Aside from "./Aside"
 
 export default function Maincon(){
     return(
-        <Welcome />
+        <main>
+            <Welcome />
+            <Aside />
+        </main>
     );
 }
