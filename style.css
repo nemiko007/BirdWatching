@@ -106,7 +106,7 @@ nav a, nav span {
 
 /* || main layout */
 
-main {
+main ,.photo{
   display: flex;
 }
 
